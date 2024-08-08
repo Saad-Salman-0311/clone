@@ -1,0 +1,168 @@
+@import url("https://fonts.googleapis.com/css2?family=Zain:wght@200;300;400;700;800;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lexend:wght@100..900&family=Zain:wght@200;300;400;700;800;900&display=swap");
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: black;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  background-color: #ecebeb;
+}
+
+
+
+main {
+  background-image: url("../clone/assets/images/back.webp");
+  height: 124vh;
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 100%;
+  margin-bottom: 0;
+}
+
+.hero-header {
+  width: 250px;
+  height: 34vh;
+  border: 1px solid rgba(23, 23, 23, 0);
+  margin: auto;
+}
+
+.hero-header img {
+  display: block;
+  margin-top: 42px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.hero-header-heading {
+  margin: auto;
+  height: 38vh;
+  border: 1px solid rgba(23, 23, 23, 0);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.hero-header-heading .p1 {
+  font-family: "Zain", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 25px;
+  position: absolute;
+  top: 0;
+  text-align: center;
+}
+
+.hero-header-heading .p2 {
+  font-family: "Zain", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 80px;
+  line-height: 0.7;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.hero-heading-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.hero-heading-buttons .button {
+  padding: 1.5rem 2rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 40px;
+  margin: 4px 10px;
+  cursor: pointer;
+  border-radius: 100vw;
+  font-family: "Zain", sans-serif;
+  font-weight: 500;
+  line-height: 100%;
+  font-size: 15px;
+  text-decoration: none;
+  width: 180px;
+  height: 60px;
+  white-space: nowrap;
+  display: flex;
+  position: relative;
+}
+
+.hero-heading-buttons .button1 {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+  background-color: rgba(255, 255, 255, 0.12);
+}
+
+.hero-heading-buttons .button1:hover {
+  width: 190px;
+}
+
+.hero-heading-buttons .button2 {
+  color: white;
+  outline-offset: -1px;
+  letter-spacing: -0.025em;
+  background-image: linear-gradient(198deg, #323232, #141414);
+  border-style: none;
+  outline: 1px solid rgba(255, 255, 255, 0.2);
+  box-shadow: -21px 16px 10px rgba(0, 0, 0, 0.04),
+    -12px 9px 9px rgba(0, 0, 0, 0.13), -5px 4px 6px rgba(0, 0, 0, 0.23),
+    -1px 1px 4px rgba(0, 0, 0, 0.26);
+}
+
+.hero-heading-buttons .button2:hover {
+  width: 190px;
+}
+
+.reel-container{
+    margin-top: -186px;
+    height: 190vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reel-container .reel{
+    aspect-ratio: 16 / 9;
+    position: absolute;
+    border-radius: 15px;
+}
+
+.cards-section{
+  display: flex;
+  justify-content: center;
+}
+
+.cards-section .left .right{
+  width: 50%;
+  height: 100%; 
+}
+
+.cards-section .card-items{
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  height: 30%;
+
+}
+
+
